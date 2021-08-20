@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(45deg, rgba(1, 1, 1, 1.7), rgba(1, 1, 1, .1)), url(photos/Moravian-Book-Shop.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+
+
+}
+
+.quote {
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+
+.quote h1 {
+    color: rgb(221, 238, 253);
+
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    font-weight: 700;
+
+    text-shadow: 10px 5px 5px rgba(85, 85, 85, 0.5);
+
+}
+
+.quote p {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+
+
+
+}
+
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(78, 78, 78);
+
+
+}
+
+.quote button {
+    border: 1px dotted transparent;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 20rem;
+    color: white;
+    transition: .5s;
+    margin-top: .5rem;
+
+}
+
+.quote button:hover {
+    background-color: grey;
+    color: honeydew;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    width: 150px;
+
+
+
+}
